@@ -1,0 +1,41 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Experiment artifacts and logs
+artifacts/
+logs/
+runs/
+wandb/
+lightning_logs/
+mlruns/
+
+# Model checkpoints / weights / exports
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Numpy / dataset caches
+*.npy
+*.npz
+
+# Repo-specific large data directories
+dynamic_demo/data/
+dynamic_demo/artifacts/
